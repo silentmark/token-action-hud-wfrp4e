@@ -1,5 +1,9 @@
 # Changelog
 
+## v3.2.1
+* Restored bypassing Test Dialog by holding ALT
+* Allowed for Public Roll mode in the **Shift Roll Mode** setting.
+
 ## v3.2.0
 * Verified for v13.342
 * Ensured pointer events for actions with `disabled` class (armour in combat tab)

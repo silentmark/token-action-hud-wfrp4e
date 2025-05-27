@@ -15,7 +15,8 @@ export function registerSettingsCoreUpdate(coreUpdate) {
     choices: {
       [CONST.DICE_ROLL_MODES.BLIND]: 'CHAT.RollBlind',
       [CONST.DICE_ROLL_MODES.PRIVATE]: 'CHAT.RollPrivate',
-      [CONST.DICE_ROLL_MODES.SELF]: 'CHAT.RollSelf'
+      [CONST.DICE_ROLL_MODES.SELF]: 'CHAT.RollSelf',
+      [CONST.DICE_ROLL_MODES.PUBLIC]: 'CHAT.RollPublic',
     },
     onChange: (value) => {
       coreUpdate(value)

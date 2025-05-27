@@ -15,7 +15,7 @@ export function testOptions() {
   if (pressedAlt())
     bypass = !bypass;
 
-  options.bypass = bypass;
+  options.skipDialog = bypass;
 
   return options;
 }
